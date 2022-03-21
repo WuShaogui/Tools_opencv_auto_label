@@ -1,6 +1,6 @@
 {
   "$schema": "https://aka.ms/codetour-schema",
-  "title": "代码逻辑",
+  "title": "mask2jaon_代码逻辑",
   "steps": [
     {
       "file": "mask2json.py",

@@ -1,0 +1,82 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "labelme_json2mask_代码逻辑",
+  "steps": [
+    {
+      "file": "labelme_json2mask.py",
+      "description": "以json路径及保存路径初始化LabelmeAnnotation对象，并调用label_json_to_datasets方法",
+      "line": 130,
+      "selection": {
+        "start": {
+          "line": 130,
+          "character": 23
+        },
+        "end": {
+          "line": 130,
+          "character": 45
+        }
+      }
+    },
+    {
+      "file": "labelme_json2mask.py",
+      "description": "遍历所有的json",
+      "line": 99,
+      "selection": {
+        "start": {
+          "line": 99,
+          "character": 1
+        },
+        "end": {
+          "line": 99,
+          "character": 72
+        }
+      }
+    },
+    {
+      "file": "labelme_json2mask.py",
+      "description": "加载json,将base64编码的图片转numpy矩阵；解析json中的二值图及标签名",
+      "line": 110,
+      "selection": {
+        "start": {
+          "line": 103,
+          "character": 1
+        },
+        "end": {
+          "line": 110,
+          "character": 90
+        }
+      }
+    },
+    {
+      "file": "labelme_json2mask.py",
+      "description": "多标签二值图转为多个标签的二值图",
+      "line": 43,
+      "selection": {
+        "start": {
+          "line": 37,
+          "character": 1
+        },
+        "end": {
+          "line": 42,
+          "character": 53
+        }
+      }
+    },
+    {
+      "file": "labelme_json2mask.py",
+      "description": "保存二值图",
+      "line": 56,
+      "selection": {
+        "start": {
+          "line": 44,
+          "character": 1
+        },
+        "end": {
+          "line": 55,
+          "character": 86
+        }
+      }
+    }
+  ],
+  "ref": "master"
+}
