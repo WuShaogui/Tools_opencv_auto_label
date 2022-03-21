@@ -1,0 +1,87 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "代码逻辑",
+  "steps": [
+    {
+      "file": "mask2json.py",
+      "description": "以模板、是否减点为参数，初始化Mask2Json对象",
+      "line": 134,
+      "selection": {
+        "start": {
+          "line": 134,
+          "character": 5
+        },
+        "end": {
+          "line": 134,
+          "character": 71
+        }
+      }
+    },
+    {
+      "file": "mask2json.py",
+      "description": "遍历mask文件夹的所有图片，使用Mask2Json对象的mask_to_json函数将每张图片转为json",
+      "line": 168,
+      "selection": {
+        "start": {
+          "line": 158,
+          "character": 1
+        },
+        "end": {
+          "line": 167,
+          "character": 34
+        }
+      }
+    },
+    {
+      "file": "mask2json.py",
+      "description": "使用cv2.findContours找到二值图上所有多边形的点",
+      "line": 74,
+      "selection": {
+        "start": {
+          "line": 73,
+          "character": 23
+        },
+        "end": {
+          "line": 73,
+          "character": 39
+        }
+      }
+    },
+    {
+      "file": "mask2json.py",
+      "description": "根据cv2.findContours找到的点集合，使用多边形近似cv2.approxPolyDP减少点的数量",
+      "line": 87
+    },
+    {
+      "file": "mask2json.py",
+      "description": "根据点的数量为json模板赋值，得到一张mask的json文件",
+      "line": 113,
+      "selection": {
+        "start": {
+          "line": 88,
+          "character": 1
+        },
+        "end": {
+          "line": 112,
+          "character": 58
+        }
+      }
+    },
+    {
+      "file": "mask2json.py",
+      "description": "将json内容保存为json文件",
+      "line": 123,
+      "selection": {
+        "start": {
+          "line": 114,
+          "character": 1
+        },
+        "end": {
+          "line": 122,
+          "character": 39
+        }
+      }
+    }
+  ],
+  "ref": "master"
+}

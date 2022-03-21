@@ -1,0 +1,6 @@
+.vscode/settings.json
+images/*
+masks/*
+jsons/*
+new_mask/*
+new_json/*
