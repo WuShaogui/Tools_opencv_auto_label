@@ -4,9 +4,8 @@
 
 # 文档结构
 ```text
-1.传统图像处理方法探索  get_regoin.py
-2.将标注结果转为labelme能解析的json格式 mask2json.py
-3.labelme保存的json结构模板 labelme4.5.6_template.json
+1.将标注结果转为labelme能解析的json格式 mask2json.py
+2.labelme保存的json结构模板 labelme4.5.6_template.json
 ```
 
 # 原理

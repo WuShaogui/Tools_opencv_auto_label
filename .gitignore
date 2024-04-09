@@ -4,3 +4,4 @@ masks/*
 jsons/*
 new_mask/*
 new_json/*
+__pycache__/my_tools.cpython-37.pyc
